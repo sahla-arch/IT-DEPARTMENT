@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("eee-logo.jpg") no-repeat center center fixed;
+    background-color: #27ae60;
+    background-size: cover;
+}
+.navbar li:first-child a {
+    color: #3c8ce7;   /* Red text */
+}
+.navbar li:first-child a:hover {
+    color: red;   /* Text turns red when hovered */
+}
+
+
+/* Header */
+header {
+  background: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+/* Style for "About the Department" heading */
+/* About section */
+.intro h2 {
+    color: red;   /* dark blue */
+}
+
+/* Style for the paragraph under About the Department */
+.intro p {
+    color: red;      /* dark gray */
+    line-height: 1.6;
+}
+.cards .card:nth-child(1) h3 {
+    color: darkgoldenrod;   /* purple */
+}
+
+/* Style for the list under Programs Offered */
+.cards .card:nth-child(1) li {
+    color: #6c3483;   /* slightly lighter purple */
+}
+
+/* Style for "Key Highlights" heading */
+.cards .card:nth-child(2) h3 {
+    color: #27ae60;   /* green */
+}
+
+/* Programs Offered list items */
+.cards .card:nth-child(1) li:nth-child(1) {
+    color: #e74c3c;   /* Dodger Blue for M.Tech in Computer Science */
+}
+
+.cards .card:nth-child(1) li:nth-child(2) {
+    color: #e74c3c;   /* Purple for M.Tech in Artificial Intelligence */
+}
+
+.cards .card:nth-child(1) li:nth-child(3) {
+    color: #e74c3c;   /* Red for Ph.D. in Machine Learning */
+}
+.cards .card:nth-child(1) li:nth-child(4) {
+    color: #e74c3c;   /* Red for Ph.D. in Machine Learning */
+}
+
+/* About section */
+.intro {
+    background-color: #ffe0b2; /* Light orange */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Programs card */
+.cards .card {
+    background-color: #ffe0b2; /* Light orange */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.teachers {
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+  color: yellow; /* text color */
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px auto;
+  width: 90%;
+}

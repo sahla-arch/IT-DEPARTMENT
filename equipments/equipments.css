@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+h1,h2,h3{
+       padding: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #4caf60;
+} */
+.equipment-placeholder{
+    display: flex;
+    border: 5px solid #4caf60; 
+     padding: 10px  ;
+     flex-direction: row;
+    align-items: center;
+ } 
+  
+/* 
+h1{
+    background-color: #4caf60;
+    color: aliceblue;
+    font-weight: bolder;
+    height: 100px;
+    width: 1500px;
+    text-align: center;
+    border: #4CAF50 2px;
+} */
+/* 
+h2 {
+    text-align: center;
+    color: #4caf60;
+    font-size: 28px;
+    margin: 20px 0;
+    border-bottom: 2px solid #66bb6a;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-weight: bold;
+} */
+.printer,.projector,.laptop,.internet{
+
+    border: #4caf60 solid 5px;
+    align-items: center;    
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    
+    font-size: 20px;
+}
+p {
+    font-size: 18px;
+    margin: 20px auto;
+    max-width: 95%;
+    text-align: justify;
+}
+
+.camera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.equipment-placeholder img{
+    width: 300px;
+    height: 300px;
+    /* display: block;
+    margin: 0 auto; */
+
+}
+.equipment-placeholder h2{
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    display: inline;
+}
+.equipment-placeholder p,ul{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.accessibility-features ul li{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.copy{
+    text-align: center;
+}
+ .back-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #2d8e47;
+  border-radius: 8px;
+  font-weight: 500;
+  transition:  0.3s;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.back-btn:hover {
+  background: #0055aa;
+ 
+}
+
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+.clear{
+    clear: both;
+  }

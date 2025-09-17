@@ -1,0 +1,210 @@
+/* --- Google Font for a modern look --- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* --- Color Palette & Global Settings --- */
+:root {
+    --primary-color: #002366; /* Deep Navy Blue */
+    --accent-color: #3B82F6;  /* A bright, modern blue */
+    --bg-color: #f4f7f6;      /* Light Gray background */
+    --card-color: #ffffff;   /* White for cards */
+    --text-color: #333333;   /* Dark Gray for text */
+    --border-color: #E0E0E0; /* Light grey for borders */
+    --shadow-color: rgba(0, 0, 0, 0.08); /* Soft shadow color */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* --- Main Container & Typography --- */
+.container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+/* --- Header & Navigation --- */
+header {
+    background-color: var(--card-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+/* --- Main Content Area --- */
+main {
+    padding-top: 2rem;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+
+.fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+
+/* --- NEWS & UPDATES STYLES --- */
+.news-container {
+    display: grid;
+    gap: 2.5rem; /* Increased gap for better separation */
+}
+
+.featured-news {
+    background-color: var(--card-color);
+    border-left: 6px solid var(--accent-color);
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px var(--shadow-color);
+}
+
+.featured-news h3 {
+    font-size: 1.5rem;
+}
+
+.featured-news a {
+    font-weight: 600;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.news-item {
+    background-color: var(--card-color);
+    padding: 1.25rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px var(--shadow-color);
+}
+
+.news-item a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.notices-list {
+    list-style: none;
+    background: var(--card-color);
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.notices-list li {
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #f0f0f0;
+    color: var(--text-color);
+}
+
+.notices-list li:last-child {
+    border-bottom: none;
+}
+
+.archives-links a {
+    margin-right: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.archives-links a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+ .back-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #2d8e47;
+  border-radius: 8px;
+  font-weight: 500;
+  transition:  0.3s;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.back-btn:hover {
+  background: #0055aa;
+  text-decoration: none;
+ 
+}
+
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+.clear{
+    clear: both;
+  }

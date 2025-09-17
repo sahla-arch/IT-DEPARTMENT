@@ -1,0 +1,102 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: url("mech-logo.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-color: #27ae60;
+}
+
+/* Navigation */
+.navbar li:first-child a {
+  color: #3c8ce7;
+}
+.navbar li:first-child a:hover {
+  color: red;
+}
+
+/* Header */
+header {
+  background: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* About Section */
+.intro {
+  background-color: #ffe0b2; /* Light orange */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.intro h2 {
+  color: red;
+}
+.intro p {
+  color: red;
+  line-height: 1.6;
+}
+
+/* Program & Highlight Cards */
+.cards .card {
+  background-color: #ffe0b2;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.cards .card:nth-child(1) h3 {
+  color: darkgoldenrod;
+}
+.cards .card:nth-child(1) li {
+  color: #6c3483;
+}
+.cards .card:nth-child(2) h3 {
+  color: #27ae60;
+}
+
+/* Special Colors for Program List */
+.cards .card:nth-child(1) li:nth-child(1),
+.cards .card:nth-child(1) li:nth-child(2),
+.cards .card:nth-child(1) li:nth-child(3),
+.cards .card:nth-child(1) li:nth-child(4) {
+  color: #e74c3c;
+}
+
+/* Teachers Section */
+.title {
+  text-align: center;
+  color: #004080;
+  margin: 20px 0;
+}
+.teacher-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+  padding: 15px;
+  margin: 15px 0;
+}
+.teacher-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.info h3 {
+  margin: 0;
+  color: #003366;
+}
+.info p {
+  margin: 4px 0;
+  color: #333;
+}
+.info a {
+  text-decoration: none;
+  color: #0066cc;
+}
+.info a:hover {
+  text-decoration: underline;
+}

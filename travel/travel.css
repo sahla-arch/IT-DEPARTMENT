@@ -1,0 +1,156 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, #f6f3ff 50%);
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 10px;
+      padding: 10px;
+      background: linear-gradient(to top, rgba(0,0,0,0.5)50%);
+    }
+
+    .container {
+      margin : 10px;
+      background: #fff;
+      padding: 20px;
+      box-sizing: border-box;
+      background-size: cover;
+      width: 100%;
+      pad: 15px;
+    }
+    .travel-banner{
+      background-size: cover;
+      position: relative;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      text-align: center;
+      /* height: 300px; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      background: url("bus.jpg");
+      }
+
+
+    .travel-banner h1 {
+      text-align: center;
+      color: #2a0a73;
+      font-size: 60px;
+      margin-bottom: 30px;
+      font-weight: bolder;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    }
+.travel-banner p {
+  color: #000;
+  font-size: 20px;
+  background-color: #4CAF50;
+  margin: auto;
+  padding: 10px;
+}
+    .section {
+      display: flex;
+      align-items: center;
+      margin: 30px;
+      padding: 15px;
+    }
+
+    .section .image img {
+    width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  background: #fafafa;
+    }
+
+    .section h2 {
+      font-size: 16px;
+      margin: 0 0 8px;
+      color: #000;
+      padding: 25px;
+  }
+  .section p {
+     font-size: 20px;
+    color: #333;
+    padding: 15px;
+    
+  }
+
+  .section .map-btn {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+    margin: 15px;
+  }
+  .section .map-btn:hover {
+    background-color: orange; 
+  }
+.section table{
+  border-collapse: collapse;
+  background-color: bisque;
+  text-align: center;
+  box-shadow: 10px 5px 10px gray;
+  width : 100%[];
+  padding: 20px;
+  margin : 20px;
+
+}
+
+.section table th,
+.section table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.section table th {
+  background: #2a0a73;
+  color: white;
+}
+footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+ 
+  .back-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #2d8e47;
+  border-radius: 8px;
+  font-weight: 500;
+  transition:  0.3s;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.back-btn:hover {
+  background: #0055aa;
+ 
+}
+
+.clear{
+    clear: both;
+  }

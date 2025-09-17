@@ -1,0 +1,99 @@
+container{
+    text-align: center;
+    font-size: 2px;
+}
+h1{
+     text-align: center;
+      color: #2a0a73;
+      font-size: 60px;
+      margin-bottom: 30px;
+      font-weight: bolder;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+      background-color: #2d8e47;
+}
+h2{
+    text-align: center;
+    
+}
+
+.faculty,.faculty2,.faculty3,.faculty4,.faculty5,.faculty6{
+      display: inline-block;
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 4px;
+
+      border: 2px solid grey;
+      width: 43%;
+      
+  }
+
+.read-more-btn,.read-more-btn2,.read-more-btn3,.read-more-btn4,.read-more-btn5,.read-more-btn6{
+      background-color: #f24a2d;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+ 
+}
+
+    .read-more-btn:hover{
+      background-color: #0055aa;
+    }
+.read-more-btn2:hover{
+      background-color: #0055aa;
+    }
+    
+.read-more-btn3:hover{
+      background-color: #0055aa;
+    }
+.read-more-btn4:hover{
+      background-color: #0055aa;
+    }
+.read-more-btn5:hover{
+      background-color: #0055aa;
+    }
+.read-more-btn6:hover{
+      background-color: #0055aa;
+    }
+    
+.more-text {
+      display: none; /* hidden by default */
+      margin-top: 10px;
+      font-size: 14px;
+      color: #333;
+    }
+
+
+.main{
+    display:block;
+}
+
+ .back-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #2d8e47;
+  border-radius: 8px;
+  font-weight: 500;
+  transition:  0.3s;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.back-btn:hover {
+  background: #0055aa;
+ 
+}
+
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+.clear{
+    clear: both;
+  }

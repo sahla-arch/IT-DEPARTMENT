@@ -1,0 +1,248 @@
+:root {
+    --primary-color: #002366; 
+    --accent-color: #005A9C;  
+    --bg-color: #f4f7f6;      
+    --card-color: #ffffff;   
+    --text-color: #333333;   
+    --shadow-color: rgba(0, 0, 0, 0.08); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2{
+       padding: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #4caf60;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* --- Header & Navigation --- */
+header {
+    background-color: var(--card-bg-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+
+/* --- Main Container & Typography --- */
+.container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+/* --- Card & Grid Layout --- */
+.card {
+    background: var(--card-color);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px var(--shadow-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px var(--shadow-color);
+}
+
+.section-grid {
+    display: grid;
+    /* Creates responsive columns that are at least 300px wide */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+/* --- Alumni Connect Section --- */
+.alumni-card {
+    text-align: center;
+}
+
+.alumni-card img {
+    /* Ensures the image is a perfect circle */
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover; /* Prevents image stretching */
+    border: 4px solid var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.alumni-card p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+}
+
+/* --- Placements Section --- */
+.placements-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.placements-info li {
+    font-size: 1.1rem;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.placements-info li:last-child {
+    border-bottom: none;
+}
+
+/* Placeholder styles for charts */
+.placements-charts img {
+    max-width: 48%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    height: 150px; /* Example height */
+}
+
+.placements-charts {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+/* --- Achievements & Projects --- */
+.achievements-card, .projects-card {
+    text-align: left;
+}
+
+.achievements-card p, .projects-card p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* --- Simple Fade-In Animation --- */
+
+
+.fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+ .back-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #2d8e47;
+  border-radius: 8px;
+  font-weight: 500;
+  transition:  0.3s;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.back-btn:hover {
+  background: #0055aa;
+ 
+}
+
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+.clear{
+    clear: both;
+  }

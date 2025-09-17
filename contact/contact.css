@@ -1,0 +1,237 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Info Section */
+.info {
+  background: #eaf0f6;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+/* Form Section */
+.form-section {
+  background: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button */
+button {
+  background: #004080;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0066cc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #004080;
+  color: white;
+  margin-top: 20px;
+}
+
+
+.info h2,
+.info p,
+.info strong {
+  color: #e91e63; /* rose color */
+}
+
+/* Form Section */
+.form-section h2,
+.form-section label,
+.form-section input,
+.form-section textarea,
+.form-section button {
+  color: #e91e63; /* rose text */
+}
+
+/* Make the submit button background rose too */
+.form-section button {
+  background-color: #e91e63; 
+  color: white; /* white text for contrast */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form-section button:hover {
+  background-color: #c2185b; /* darker rose on hover */
+}
+/* Navbar reset */
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Place nav at top-left */
+nav {
+  position: absolute;  /* fixes it relative to page */
+  top: 10px;           /* distance from top */
+  left: 10px;          /* distance from left */
+}
+
+/* Style the Home link */
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: blue;       /* default color */
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: green; /* optional background */
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  background: pink;
+  color: rgb(26, 175, 46);
+}
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #0a2a66;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    section {
+      background: #fff;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #b30000;
+      margin-bottom: 10px;
+    }
+    .emergency {
+      background: #ffe6e6;
+      border-left: 6px solid red;
+    }
+    .socials a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #0a2a66;
+      font-weight: bold;
+    }
+    details {
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      background: #0a2a66;
+      color: white;
+      padding: 10px;
+    }
+    section {
+  background-color: rgb(143, 188, 153); /* or use "pink", "lightcoral", "#FFC0CB" */
+  padding: 20px;
+  border-radius: 10px; /* optional rounded corners */
+  margin: 15px 0;
+}
+.facebook-logo {
+  width: 40px;   /* adjust size */
+  height: 40px;  /* keep same for square */
+}
+.twitter-logo {
+  width: 40px;   /* adjust size */
+  height: 40px;  /* keep same for square */
+}
+.instagram-logo {
+  width: 60px;   /* adjust size */
+  height: 60px;  /* keep same for square */
+}
+.office-logo {
+  width: 200px;   /* adjust as needed */
+  height: 150px;  
+}
+.find-logo {
+  width: 200px;   
+  height: 150px; 
+   
+}
+.faq-logo{
+  width:200px;
+  height:150px;
+}
+.security-logo{
+  width:200px;
+  height:150px;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #2d8e47;
+  border-radius: 8px;
+  font-weight: 500;
+  transition:  0.3s;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.back-btn:hover {
+  background: #0055aa;
+ 
+}
+
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+.clear{
+    clear: both;
+  }
