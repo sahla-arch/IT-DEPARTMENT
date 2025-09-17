@@ -50,22 +50,21 @@ header {
   font-family: 'Poppins', sans-serif;
 }
 
+
 header .logo {
   position: relative;
   padding: 10px 20px;
   min-height: 70px;
 }
 header .logo img {
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   float: left;
 }
-
-  header .header-center h2 {
-    font-size: 24px;
-  }
 .header-center h3 {
-  font-size: 12px;
+
+  
+  font-size: 15px;
   font-weight: 500;
   text-align: center;
   margin-top: 45px;
@@ -115,7 +114,6 @@ header nav .nav-links {
   margin: 0;
   padding: 0;
   display: inline-block; 
-    
 }
 header nav .nav-links li {
   display: inline-block;
@@ -132,6 +130,8 @@ header nav .nav-links li a:hover {
   color: #66D575;
 }
 
+
+
 header .menu-toggle {
   font-size: 22px;
   cursor: pointer;
@@ -140,7 +140,6 @@ header .menu-toggle {
   top: 50%;
   transform: translateY(-50%);
   color: black;
-  
 }
 header .menu-toggle:hover {
   color: #66D575;
@@ -188,13 +187,13 @@ header .menu-toggle:hover {
 .body-section .body-content {
   color: white;
   text-align: center;
-  top: 20%;
-  left: 5%;
+  top: 30%;
+  left: 35%;
   font-weight: bolder;
   position: absolute;
-  font-size: 18px;
-     right: 5%;
-  }
+  font-size: 35px;
+
+}
 
 .body-section .body-content h2 {
   font-size: 24px;
@@ -223,9 +222,7 @@ header .menu-toggle:hover {
   justify-content: center;
   gap: 20px;
   padding: 30px 20px;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
+   
 }
 .feature{ 
   border: 2px solid black;
@@ -237,10 +234,6 @@ header .menu-toggle:hover {
  cursor: pointer;
 transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   padding: 25px 20px;
-  flex: 1 1 45%;
-  max-width: 45%;
-  margin-bottom: 15px;
-  width: 90%;
 
 }
 
@@ -294,8 +287,6 @@ transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s eas
   justify-content: space-between;
   padding: 10px 10px;
   font-size: 14px;
-  flex-direction: column;
-  text-align: center;
 }
 
  footer {
@@ -304,10 +295,4 @@ transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s eas
       text-align: center;
       padding: 1rem;
       margin-top: 3rem;
-
     }
-
-
-
-
-
