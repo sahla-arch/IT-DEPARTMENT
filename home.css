@@ -308,24 +308,5 @@ transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s eas
       margin-top: 3rem;
 
     }
-    /* For tablets */
-@media (max-width: 768px) {
-  .banner h1 {
-    font-size: 5vw;
-  }
-  .contact-section {
-    flex-direction: column;    /* stack address & contact */
-    text-align: center;
-  }
-}
 
-/* For phones */
-@media (max-width: 480px) {
-  .features-container {
-    flex-direction: column;    /* stack all features */
-    align-items: center;
-  }
-  .feature {
-    width: 90%;                /* almost full width */
-  }
-}
+
