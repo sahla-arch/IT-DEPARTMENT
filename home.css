@@ -140,7 +140,7 @@ header .menu-toggle {
   top: 50%;
   transform: translateY(-50%);
   color: black;
-  display: block;
+  
 }
 header .menu-toggle:hover {
   color: #66D575;
@@ -306,6 +306,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s eas
       margin-top: 3rem;
 
     }
+
 
 
 
