@@ -50,7 +50,6 @@ header {
   font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width: 768px) {
 header .logo {
   position: relative;
   padding: 10px 20px;
@@ -111,13 +110,12 @@ header nav {
   text-align: center; 
 }
 
-@media (max-width: 480px) {
 header nav .nav-links {
   list-style: none;
   margin: 0;
   padding: 0;
   display: inline-block; 
-    display: none;
+    
 }
 header nav .nav-links li {
   display: inline-block;
@@ -197,8 +195,6 @@ header .menu-toggle:hover {
   font-size: 18px;
      right: 5%;
   }
-
-}
 
 .body-section .body-content h2 {
   font-size: 24px;
@@ -300,7 +296,6 @@ transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s eas
   font-size: 14px;
   flex-direction: column;
   text-align: center;
-  }
 }
 
  footer {
@@ -311,6 +306,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s eas
       margin-top: 3rem;
 
     }
+
 
 
 
